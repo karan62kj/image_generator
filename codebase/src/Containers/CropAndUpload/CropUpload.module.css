@@ -1,0 +1,35 @@
+
+.cropContainer{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cropBox
+{
+    transform: scale(0.8) translate(20%,0%);
+    margin: 0.5rem 0;
+    width: fit-content;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 3px 6px black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadBox{
+    position: fixed;
+    bottom:0;
+    left:0;
+    height: 4rem;
+    box-shadow: -3px 0 5px black;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

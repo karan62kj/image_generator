@@ -1,0 +1,23 @@
+.button{
+    padding: 0.4rem 1.6rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: black;
+    color:white;
+    display: block;
+    width: fit-content;
+    outline: none;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.904);
+}
+
+.button:hover{
+    transform: translateY(-3px);
+}
+
+.button:active
+{
+    transform: translateY(0px);
+}

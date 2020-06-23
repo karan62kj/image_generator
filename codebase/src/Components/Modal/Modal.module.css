@@ -1,0 +1,55 @@
+.backdrop{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.897);
+    z-index: 99;
+    height: 200vh;
+    width: 200vw;
+    display: none;
+}
+
+.backdrop.active{
+    display: block;
+}
+
+.modal{
+    position:fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-150vh);
+    max-height: 60vh;
+    width: 700px;
+    background-color: #fff;
+    z-index: 999;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    transition: all .3s ease;
+}
+
+.modalHeader{
+border-bottom: 1px solid grey;
+font-size: 1.4rem;
+text-transform: uppercase;
+font-weight: 800;
+padding: 15px;
+}
+
+.modalFooter
+{
+    border-top: 1px solid grey;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modalBody{
+    max-height: 50vh ;
+    padding: 15px;
+    overflow: scroll;
+}
+
+.modal.active{
+    transform: translate(-50%,-50%);
+}

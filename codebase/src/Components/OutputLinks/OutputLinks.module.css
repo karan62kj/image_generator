@@ -1,0 +1,9 @@
+.outputlinks{
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed black;
+}
+
+.label{
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
